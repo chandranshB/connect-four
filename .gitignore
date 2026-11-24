@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.venv/
+env/
+venv/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+*.tsbuildinfo
+
+# Python cache & test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+
+# Tooling and caches
+.impeccable/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
